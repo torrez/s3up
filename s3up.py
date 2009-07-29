@@ -6,7 +6,7 @@ import settings
 import os,sys
 
 if len(sys.argv) < 4:
-  print "Usage: <filename> <bucket> <path>"
+  print "Usage: <filename> <bucket> <s3 path>"
   sys.exit(-1)
   
 s3 = S3Connection(settings.S3_PUBLIC, settings.S3_PRIVATE)
