@@ -13,5 +13,5 @@ s3 = S3Connection(settings.S3_PUBLIC, settings.S3_PRIVATE)
 bucket = s3.get_bucket(sys.argv[2])
 
 k = Key(bucket)
-k.key = "%s/%s" % (sys.argv[3].rstrip('/'), sys.argv[1])
+k.key = "%s/%s" % (sys.argv[3].strip('/'), sys.argv[1])
 k.set_contents_from_filename(filename=sys.argv[1], policy='private')
