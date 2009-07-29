@@ -1,0 +1,5 @@
+== s3up ==
+
+This is an old script of mine to push backups to s3.
+
+Move settings.py.example to settings.py and fill in your Amazon S3 credentials.
