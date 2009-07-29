@@ -1,5 +1,8 @@
 == s3up ==
 
-This is an old script of mine to push backups to s3.
+Script to push files to S3 given a filename, bucket, and the resulting S3 path
 
-Move settings.py.example to settings.py and fill in your Amazon S3 credentials.
+Usage: <filename> <bucket> <s3 path>
+
+Move settings.py.example to settings.py and fill in your Amazon S3 credentials. 
+
