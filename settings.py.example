@@ -1,0 +1,2 @@
+S3_PUBLIC = "bert" 
+S3_PRIVATE = "ernie"
